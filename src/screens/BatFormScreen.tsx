@@ -37,13 +37,17 @@ export function BatFormScreen() {
         placeholderTextColor="#44496f"
       ></TextInput>
       <Text style={styles.button}>🗺️ USE MY LOCATION</Text>
-      <Text style={styles.text}>Notes:</Text>
+      <Text style={styles.text}>Description:</Text>
       <TextInput
-        style={styles.notes}
+        style={styles.description}
         placeholder="Add some description..."
         placeholderTextColor="#44496f"
       ></TextInput>
       <Text style={styles.sendButton}>SEND</Text>
+      <Image
+        style={styles.homeButton}
+        source={require("../../assets/home.png")}
+      ></Image>
     </View>
   );
 }

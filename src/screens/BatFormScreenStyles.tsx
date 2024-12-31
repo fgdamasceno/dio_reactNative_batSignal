@@ -11,8 +11,7 @@ export const styles = StyleSheet.create({
   image: {
     width: 80,
     height: 80,
-    marginTop: 20,
-    marginBottom: 10,
+    marginTop: 10,
   },
   text: {
     fontSize: 20,
@@ -48,7 +47,7 @@ export const styles = StyleSheet.create({
     width: "90%",
     height: 45,
     backgroundColor: "#c22a2a",
-    marginTop: 50,
+    marginTop: 40,
     borderRadius: 10,
     textAlign: "center",
     textAlignVertical: "center",
@@ -56,7 +55,7 @@ export const styles = StyleSheet.create({
     fontWeight: "bold",
     color: "#f1b950",
   },
-  notes: {
+  description: {
     width: "90%",
     height: 90,
     backgroundColor: "#181719",
@@ -66,5 +65,10 @@ export const styles = StyleSheet.create({
     paddingHorizontal: 15,
     borderRadius: 10,
     color: "#f1b950",
+  },
+  homeButton: {
+    width: 30,
+    height: 30,
+    marginTop: 25,
   },
 });
